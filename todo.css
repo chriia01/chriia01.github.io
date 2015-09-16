@@ -1,0 +1,12 @@
+.highPri{
+  color: red;
+}
+.medPri{
+  color: orange;
+}
+.lowPri{
+  color: gray;
+}
+.done{
+  text-decoration: line-through;
+}
