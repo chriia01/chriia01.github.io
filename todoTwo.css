@@ -1,1 +1,16 @@
-
+#highP>section{
+  color:white;
+  background-color:red;
+}
+#medP>section{
+  color:brown;
+  background-color:orange;
+}
+#lowP>section{
+  color:black;
+  background-color:grey;
+}
+#done>section{
+  color:cyan;
+  background-color:black;
+}
