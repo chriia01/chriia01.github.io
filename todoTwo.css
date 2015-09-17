@@ -1,16 +1,16 @@
-#highP>ul{
+#highP > li{
   color:white;
   background-color:red;
 }
-#medP>ul{
+#medP > li{
   color:brown;
   background-color:orange;
 }
-#lowP>ul{
+#lowP > li{
   color:black;
   background-color:grey;
 }
-#done>ul{
+#done > li{
   color:cyan;
   background-color:black;
 }
