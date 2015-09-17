@@ -13,4 +13,6 @@
 #done > li{
   color:cyan;
   background-color:black;
+  text-decoration: line-through;
+
 }
