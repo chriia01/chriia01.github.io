@@ -1,16 +1,16 @@
-#highP > li{
+#highP li{
   color:white;
   background-color:red;
 }
-#medP > li{
+#medP li{
   color:brown;
   background-color:orange;
 }
-#lowP > li{
+#lowP li{
   color:black;
   background-color:grey;
 }
-#done > li{
+#done li{
   color:cyan;
   background-color:black;
   text-decoration: line-through;
