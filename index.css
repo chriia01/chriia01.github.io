@@ -35,3 +35,7 @@ header {
   font-size:16pt;
   text-align:left;
 }
+footer {
+  background-color:black;
+  clear:both;
+}
