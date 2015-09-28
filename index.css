@@ -13,3 +13,9 @@ body nav {
 header {
   margin-top:55px;
 }
+#left{
+  float:left;
+}
+#right{
+  float:right;
+}
