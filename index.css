@@ -36,6 +36,13 @@ header {
   text-align:left;
 }
 footer {
+  position:absolute;
+  bottom:0px;
   background-color:black;
   clear:both;
+  width:100%;
+  left:5px;
+  padding:0px;
+  height:10px;
+  
 }
