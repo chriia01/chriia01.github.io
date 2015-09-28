@@ -1,6 +1,6 @@
 body nav {
   position:fixed;
-  background-color: gold;
+  background-color: white;
   height: 20px;
   width: 100%;
   display: inline;
@@ -15,7 +15,11 @@ header {
 }
 #left{
   float:left;
+  background-color: darkblue;
+  color: gold;
 }
 #right{
   float:right;
+  background-color: gold;
+  color: darkblue;
 }
