@@ -1,3 +1,22 @@
 <html>
-<head>
+  <head>
+    <title>The Final ToDo List</title>
+  </head>
+  <body>
+    <header>
+      <h1>ToDo List</h1>
+    </header>
+    <section>
+    </section>
+    <footer>
+      <p>Enter text</p>
+      <input type="text" value="changeme">
+      <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+    </footer>
+  </body>
 </html>
+
