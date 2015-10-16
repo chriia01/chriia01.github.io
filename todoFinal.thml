@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>The Final ToDo List</title>
+    <link rel=stylesheet href=todoFinal.css type=text/css />
   </head>
   <body>
     <header>
@@ -16,7 +17,10 @@
         <option>Medium</option>
         <option>Low</option>
       </select>
+      <button onclick="addList();">New</button>
     </footer>
+    <script type = "text/javascript" src = "todoThree.jss">
+    </script>
   </body>
 </html>
 
