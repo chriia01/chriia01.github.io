@@ -13,15 +13,17 @@
 #done {
   text-decoration: line-through;
 }
+
 body {
   background-color: gold;
+}
+
+section {
+  background-color: darkblue;
   height = 400 px;
   width = 90%;
   margin-left = auto;
   margin-right = auto;
-}
-section {
-  background-color: darkblue;
 }
 
 footer {
