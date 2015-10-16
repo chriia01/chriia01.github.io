@@ -27,4 +27,5 @@ section {
 footer {
   color: white;
   background-color: darkblue;
+  display:inline;
 }
