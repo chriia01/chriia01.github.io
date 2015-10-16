@@ -1,1 +1,25 @@
+#highP {
+  color:red;
+}
 
+#medP {
+  color:brown;
+}
+
+#lowP {
+  color:black;
+}
+
+#done {
+  text-decoration: line-through;
+}
+body {
+  background-color: gold;
+  height = 400 px;
+  width = 90%;
+  margin-left = auto;
+  margin-right = auto;
+}
+section {
+  background-color: darkblue;
+}
