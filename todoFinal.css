@@ -25,6 +25,7 @@ body {
 }
 
 footer {
+  text-align:center;
   color: white;
   background-color: darkblue;
   width = 80%;
