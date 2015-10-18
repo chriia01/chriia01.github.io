@@ -27,6 +27,10 @@ body {
 footer {
   color: white;
   background-color: darkblue;
-  display:inline;
   width = 80%;
+}
+
+
+footer p {
+  display:inline;
 }
