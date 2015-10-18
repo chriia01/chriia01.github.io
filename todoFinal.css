@@ -18,7 +18,7 @@ body {
   background-color: red;
 }
 
-section {
+#box{
   background-color: darkblue;
   height = 400 px;
   width = 80%;
