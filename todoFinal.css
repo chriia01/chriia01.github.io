@@ -24,6 +24,10 @@ body {
   width = 80%;
 }
 
+title{
+  text-align:center;
+}
+
 footer {
   text-align:center;
   color: white;
