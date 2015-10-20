@@ -1,12 +1,12 @@
-#highP {
+.High {
   color:red;
 }
 
-#medP {
+.Medium {
   color:brown;
 }
 
-#lowP {
+.Low {
   color:black;
 }
 
