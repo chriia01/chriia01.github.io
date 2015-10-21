@@ -1,0 +1,104 @@
+
+<html>
+  <head>
+    <title>The Final ToDo List</title>
+    <link rel=stylesheet href=todoFinal.css type=text/css />
+    <style>
+        .High {
+            color:red;
+        }
+
+        .Medium {
+            color:brown;
+        }
+
+        .Low {
+            color:black;
+        }
+
+        .done {
+           text-decoration: line-through;
+        }
+
+        body {
+            background-color: gold;
+        }
+
+        section{
+           position:relative;
+           background-color: white;
+           height:400px;
+           width: 600px;
+           margin-top: 25px; 
+        }
+
+
+        header{
+            text-align:center;
+        }
+
+        footer {
+            position:relative;
+            text-align:center;
+            width:600px;
+            color: white;
+            background-color: darkblue;
+            width = 80%;
+       }
+
+
+       footer p {
+           display:inline;
+       }
+
+      #toDoList{
+
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Busy Busy...</h1>
+    </header>
+    <section>
+      <p>ToDo:</p>
+      <ul id=toDoList></ul>   
+    </section>
+    <footer>
+      <p>Enter text:</p>
+      <input type="text" value="Enter ToDo Item" id = toDoItem>
+      <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+      <button onclick="addList();">New</button>
+    </footer>
+    <script type = "text/javascript">
+      addList = function() {
+        var myLI, myBox, myPriority, myUL, myInput, myText;
+
+        myBox= document.querySelector("#toDoItem");
+        myUL = document.querySelector("#toDoList");
+        myPriority= document.querySelector("#priority");
+
+        myLI = document.createElement("li");
+        myLI.classList.add(myPriority.value);
+
+        myInput= document.createElement("Input");
+        myInput.type = "Checkbox";
+
+        myText = document.createTextNode(myBox.value);
+        myLI.appendChild(myInput);
+        myLI.appendChild(myText);
+
+        myUL.appendChild(myLI);
+        
+
+      }
+    </script>
+  </body>
+</html>
