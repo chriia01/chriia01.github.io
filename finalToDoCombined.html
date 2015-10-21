@@ -98,6 +98,15 @@
         myUL.appendChild(myLI);
         
 
+        }
+
+      doneTask = function() {
+        if(this.checked) {
+          this.parentNode.classList.add("done");
+        }
+        else {
+          this.parentNode.classList.remove("done");
+        }
       }
     </script>
   </body>
