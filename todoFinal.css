@@ -10,8 +10,8 @@
   color:black;
 }
 
-#done {
-  text-decoration: line-through;
+.done {
+ text-decoration: line-through;
 }
 
 body {
@@ -19,11 +19,11 @@ body {
 }
 
 section{
-  background-color: darkblue;
-  height = 400 px;
-  width = 250px;
-  margin: 25px;
-  padding: 300px;
+ position:relative;
+ background-color: white;
+ height:400px;
+ width: 600px;
+ margin-top: 25px; 
 }
 
 header{
@@ -31,13 +31,14 @@ header{
 }
 
 footer {
+  position:relative;
   text-align:center;
+  width:600px;
   color: white;
   background-color: darkblue;
   width = 80%;
 }
 
-
 footer p {
-  display:inline;
+display:inline;
 }
