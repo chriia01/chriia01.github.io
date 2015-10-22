@@ -1,12 +1,23 @@
 addList = function() {
-  var newLi, inputBox, prioritySelector, toDo;
+  var myLI, myBox, myPriority, myUL, myInput, myText;
+  myBox= document.querySelector("#toDoItem");
+  myUL = document.querySelector("#toDoList");
+  myPriority= document.querySelector("#priority");
+  myLI = document.createElement("li");
+  myLI.classList.add(myPriority.value);
+  myInput= document.createElement("Input");
+  myInput.type = "Checkbox";
+  myText = document.createTextNode(myBox.value);
+  myLI.appendChild(myInput);
+  myLI.appendChild(myText);
+  myUL.appendChild(myLI);
   
-  inputBox = document.querySelector(#toDoItem);
-  toDo = document.querySelector(#toDoList);
-  prioritySelector = document.querySelector(#priority);
-  
-  newLi = document.creatElement("li");
-  newLi.createTextNode(inputBox.value);
-  newLi.className = priority.value;
-  
+  }
+doneTask = function() {
+  if(this.checked) {
+    this.parentNode.classList.add("done");
+  }
+  else {
+    this.parentNode.classList.remove("done");
+  }
 }
