@@ -7,12 +7,13 @@ addList = function() {
   myLI.classList.add(myPriority.value);
   myInput= document.createElement("Input");
   myInput.type = "Checkbox";
-  myInput.addEventListener("click",doneTask);
+  myInput.onclick = doneTask;
   myText = document.createTextNode(myBox.value);
   myLI.appendChild(myInput);
   myLI.appendChild(myText);
   myUL.appendChild(myLI);
   
+  localSave('toDoList');
   }
 doneTask = function() {
   if(this.checked) {
@@ -21,4 +22,5 @@ doneTask = function() {
   else {
     this.parentNode.classList.remove("done");
   }
+  localSave('toDoList');
 }
