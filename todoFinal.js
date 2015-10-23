@@ -7,6 +7,7 @@ addList = function() {
   myLI.classList.add(myPriority.value);
   myInput= document.createElement("Input");
   myInput.type = "Checkbox";
+  myInput.addEventListener("click",doneTask);
   myText = document.createTextNode(myBox.value);
   myLI.appendChild(myInput);
   myLI.appendChild(myText);
