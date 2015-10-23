@@ -20,6 +20,7 @@ body {
 
 section{
  position:relative;
+ margin:auto;
  background-color: white;
  height:400px;
  width: 600px;
@@ -33,6 +34,7 @@ header{
 footer {
   position:relative;
   text-align:center;
+  margin:auto;
   width:600px;
   color: white;
   background-color: darkblue;
